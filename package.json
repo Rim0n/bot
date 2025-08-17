@@ -1,0 +1,25 @@
+{
+  "name": "combined-discord-bot",
+  "version": "1.0.0",
+  "description": "A comprehensive Discord bot with logging, GPT integration, and music features",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "bot", "music", "gpt", "logging"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "canvas": "^3.1.2",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.3.1",
+    "openai": "^5.10.2",
+    "opusscript": "^0.0.8",
+    "sodium": "^3.0.2",
+    "yt-search": "^2.10.4",
+    "ytdl-core": "^4.11.5"
+  }
+}
